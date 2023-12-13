@@ -1,0 +1,55 @@
+﻿html, body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    justify-content: center;
+    align-content: center;
+}
+
+div.gameWindow {
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    height: 99%;
+    border-radius: 50px;
+    border: solid 10px;
+    animation-name: rgb;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    justify-content: center;
+    align-content: center;
+}
+
+div.windowForCarousel {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 95%;
+}
+
+@keyframes rgb {
+    0%{
+        border-color: red;
+    }
+    16.6%{
+        border-color: magenta;
+    }
+    33.2%{
+        border-color: blue;
+    }
+    49.8%{
+        border-color: cyan;
+    }
+    66.4%{
+        border-color: green;
+    }
+    83%{
+        border-color: yellow;
+    }
+    100%{
+        border-color: red;
+    }
+}
